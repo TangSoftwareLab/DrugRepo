@@ -1,5 +1,5 @@
 # Drugpro
-DrugRepo is a computational pipeline to repurpose drugs for new indications. The repurposing pipeline has various steps including: Compound-target data analysis, structural analysis, gene-disease relationships and pathway analysis. The pipeline is able to repurpose ~0.8. million compounds across 606 diseases (including various cancers, cardiovascular and kidney diseases).
+DrugRepo (http://drugrepo.org/) is a computational pipeline to repurpose drugs for new indications. The repurposing pipeline has various steps including: Compound-target data analysis, structural analysis, gene-disease relationships and pathway analysis. The pipeline is able to repurpose ~0.8. million compounds across 606 diseases (including various cancers, cardiovascular and kidney diseases).
 <figure>
     <img src="schematic.png" alt="schematic" width="">
 </figure>
@@ -20,7 +20,7 @@ Here we provide a case study on Chronic Myeloid leukemia (CML) using the web int
 3.	T-distributed stochastic neighbour embedding **(TSNE)** is used to visualize 2D similarity between approved drugs (purple) and repurposing compound (red) as shown in **Figure D**. The 2D similarity was computed based on ECFP4 fingerprints.
 
 ### There are *four tables* in ‘Tables’ dropdown list, 1) *drug repurposing table*, 2) *approved drugs for the disease*, 3) *disease-gene associations*, 4) *Drug target profiles for drug and compounds*. 
-1.	The **‘drug Repurposing’** table provides four scores (TC, OCTS, CDS and DrugRepo) between approved and repurposing drugs. 
-2.	The **‘approved drugs for the disease’** table display UML-CUIs for the selected disease and standard InChIKeys of the approved drugs. 
-3.	The **‘disease-gene associations’** table displays the genes associated with the selected disease. 
+1.	**‘drug Repurposing’** table provides four scores (TC, OCTS, CDS and DrugRepo) between approved and repurposing drugs. 
+2.	**‘approved drugs for the disease’** table display UML-CUIs for the selected disease and standard InChIKeys of the approved drugs. 
+3.	**‘disease-gene associations’** table displays the genes associated with the selected disease. 
 4.	Finally, **‘Drug target profiles for drug and compounds’** table provides a list of drug targets associated with approved drugs and repurposing compounds.
