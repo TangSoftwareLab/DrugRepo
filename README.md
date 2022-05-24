@@ -1,5 +1,5 @@
 # Drugpro
-DrugRepo (http://drugrepo.org/) is a computational pipeline to repurpose drugs for new indications. The repurposing pipeline has various steps including: Compound-target data analysis, structural analysis, gene-disease relationships and network analysis. The pipeline is able to repurpose ~0.8. million compounds across 606 diseases (including various cancers, cardiovascular and kidney diseases).
+DrugRepo (http://drugrepo.org/) is a computational pipeline to repurpose drugs for new indications. The repurposing pipeline has various steps including: Compound-target data analysis, structural analysis, gene-disease relationships and network analysis. The pipeline is able to repurpose ~0.8. million compounds across 646 diseases (including various cancers, cardiovascular and kidney diseases).
 <figure>
     <img src="schematic.png" alt="schematic" width="">
 </figure>
