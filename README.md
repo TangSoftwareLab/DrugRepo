@@ -14,12 +14,12 @@ Here we provide a case study on Chronic Myeloid leukemia (CML) using the web int
     <img src="Interface.jpg" alt="Interface"  width="">
 </figure>
 
-### There are *three figures* that can be selected from the Figures dropdown list, i.e., 1) *statistics*, 2) *repurposing scores*, and 3) *TSNE*. 
+### There are three figures that can be selected from the Figures dropdown list, i.e., 1) *statistics*, 2) *repurposing scores*, and 3) *TSNE*. 
 1.	The **‘statistic’** displays the top targets (for approved drugs) and list of repurposing compounds **(Figure B)**. We used standard InChIKey identifiers for the repurposing compounds (Figure B). We used standard InChIKey identifiers for the repurposing compounds instead of names because many of preclinical and investigational compounds haven’t been assigned with proper names. For targets, we used UniProt IDs. 
 2.	The **‘repurposing scores’** provides 3D scatterplot with x-axis as TC, y-axis as OCTS and z-axis as CDS. In the scatter plot, each point is a pair of approved drug and repurposed compounds. Repurposing compounds are assigned with colors like the most associated approved drug **(Figure C)**. More details about disease, approved drug, repurposing compound, and the three scores shown if users click on the point. 
 3.	T-distributed stochastic neighbour embedding **(TSNE)** is used to visualize 2D similarity between approved drugs (purple) and repurposing compound (red) as shown in **Figure D**. The 2D similarity was computed based on ECFP4 fingerprints.
 
-### There are *four tables* in ‘Tables’ dropdown list, 1) *drug repurposing table*, 2) *approved drugs for the disease*, 3) *disease-gene associations*, 4) *Drug target profiles for drug and compounds*. 
+### There are four tables in ‘Tables’ dropdown list, 1) *drug repurposing table*, 2) *approved drugs for the disease*, 3) *disease-gene associations*, 4) *Drug target profiles for drug and compounds*. 
 1.	**‘drug Repurposing’** table provides four scores (TC, OCTS, CDS and DrugRepo) between approved and repurposing drugs. 
 2.	**‘approved drugs for the disease’** table display UML-CUIs for the selected disease and standard InChIKeys of the approved drugs. 
 3.	**‘disease-gene associations’** table displays the genes associated with the selected disease. 
